@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImagesTranslator.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="BackgroundColor">#ff8c00</Color>
+            <Color x:Key="FrameColor">white</Color>
+            <Color x:Key="ButtonColor">#ff7f50</Color>
+            <Color x:Key="SubtitleColor">white</Color>
+            <Color x:Key="BorderColor">#ff8c00</Color>
+            <Color x:Key="MainColor">#ff8c00</Color>
+           
+
+            <Color x:Key="Primary">#FF7F00</Color>
+
+            <Color x:Key="AppLightPrimaryColor">Blue</Color>
+            <Color x:Key="AppLightSecondaryColor">Green</Color>
+
+
+            <Color x:Key="DarkColor">#FF8A00</Color>
+           
+            <Color x:Key="BaseColor">#2A2B4B</Color>
+            <!-- Defining Universal Dark  Colors -->
+            <Color x:Key="AppDarkPrimaryColor">White</Color>
+            <Color x:Key="AppDarkSecondaryColor">Red</Color>
+            <Color x:Key="TextColor">black</Color>
+            <Style x:Key="ButtonStyle"
+           TargetType="Button">
+                <Setter Property="BackgroundColor"
+                Value="{AppThemeBinding Light={StaticResource DarkColor}, Dark={StaticResource DarkColor}}" />
+                <Setter Property="TextColor"
+                Value="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColor}}" />
+                <Setter Property="CornerRadius" Value="6"/>
+
+            </Style>
+        </ResourceDictionary>
+   
+    </Application.Resources>
+</Application>
