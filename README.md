@@ -6,7 +6,7 @@ This project aims to create an app that can convert images to text.
 ### Implementation
 In the app, the users are be able to Create a new account. Login both by entering there details and by using the finger print sensor form there phone. The users will be able to Convert image to text and send the converted text to social medai platforms or copy said text or send text via blurtooth e.t.c.
 
-### Setep by step use.
+### Step by step use.
 The app opens with a login menu which also has a signup opion underneath.
 
 The user may got to the signup page and create a account by entering there details.
