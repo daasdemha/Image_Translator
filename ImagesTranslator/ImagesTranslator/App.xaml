@@ -18,7 +18,7 @@
             <Color x:Key="AppLightSecondaryColor">Green</Color>
 
 
-            <Color x:Key="DarkColor">#FF8A00</Color>
+            <Color x:Key="DarkColor">#0078FF</Color>
            
             <Color x:Key="BaseColor">#2A2B4B</Color>
             <!-- Defining Universal Dark  Colors -->
