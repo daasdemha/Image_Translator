@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:renderers="clr-namespace:ImagesTranslator.Renderers"
+             x:Class="ImagesTranslator.Views.RegisterPage"
+             BackgroundColor="{StaticResource BaseColor}"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="FrameStyle" TargetType="Frame">
+                <Setter Property="Padding" Value="10,0,0,0"/>
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="BorderColor" Value="#44A7C4"/>
+
+                <Setter Property="CornerRadius" Value="15"/>
+                <Setter Property="HeightRequest" Value="50"/>
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <Grid RowSpacing="0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Image Source="LogoMain.png"  WidthRequest="150" Grid.Row="0"
+                   Aspect="AspectFit" Margin="0,0,0,0" HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Start"/>
+                <Label Text="Supplier Registration Form" FontFamily="ThemeFontBold" TextColor="White" Grid.Row="1"
+                   FontSize="Medium" HorizontalOptions="CenterAndExpand"/>
+
+                <StackLayout Spacing="0" Grid.Row="3">
+                    
+                    <StackLayout Margin="15,5,15,15" Spacing="10" Visual="Material">
+
+                        <StackLayout Spacing="0">
+                            <Label
+                        Margin="2,0,0,0"
+                        FontSize="14"
+                        Text="Name"
+                        TextColor="White"
+                        FontAttributes="Bold"/>
+                            <Frame
+                        Style="{StaticResource FrameStyle}"
+                        BackgroundColor="White" BorderColor="LightGray"
+                        HeightRequest="50">
+                                <renderers:BorderlessEntry Placeholder="Name" PlaceholderColor="Black"
+                                                           Text="{Binding Name}"
+                                                           Keyboard="Text" FontSize="14" Margin="5,0,0,0" />
+                            </Frame>
+                           
+                        </StackLayout>
+                        <StackLayout Spacing="0">
+                            <Label
+                        Margin="2,0,0,0"
+                        FontSize="14"
+                        Text="Email"
+                        TextColor="White"
+                        FontAttributes="Bold"/>
+                            <Frame
+                        Style="{StaticResource FrameStyle}"
+                        BackgroundColor="White" BorderColor="LightGray"
+                        HeightRequest="50">
+                                <renderers:BorderlessEntry Placeholder="Email" PlaceholderColor="Black"  TextColor="Black"
+                                                          Text="{Binding Email}"
+                                                           Keyboard="Email" FontSize="14" Margin="5,0,0,0" />
+                            </Frame>
+                            
+                        </StackLayout>
+                        <StackLayout Spacing="0">
+                            <Label
+                        Margin="2,0,0,0"
+                        FontSize="14"
+                        Text="Password"
+                        TextColor="White"
+                        FontAttributes="Bold"/>
+                            <Frame
+                        Style="{StaticResource FrameStyle}"
+                        BackgroundColor="White" BorderColor="LightGray"
+                        HeightRequest="50">
+                                <renderers:BorderlessEntry Placeholder="Password"  PlaceholderColor="Black"  TextColor="Black"
+                                                          Text="{Binding Password}"
+                                                           IsPassword="True"
+                                                           Keyboard="Text" FontSize="14" Margin="5,0,0,0" />
+                            </Frame>
+                           
+                        </StackLayout>
+                        <StackLayout Spacing="0">
+                            <Label
+                        Margin="2,0,0,0"
+                        FontSize="14"
+                        Text="Confirm Password"
+                        TextColor="White"
+                        FontAttributes="Bold"/>
+                            <Frame
+                        Style="{StaticResource FrameStyle}"
+                        BackgroundColor="White" BorderColor="LightGray"
+                        HeightRequest="50">
+                                <renderers:BorderlessEntry Placeholder="ConfirmPassword" PlaceholderColor="Black"  TextColor="Black"
+                                                          Text="{Binding ConfirmPassword,Mode=TwoWay}"
+                                                           IsPassword="True"
+                                                           Keyboard="Text" FontSize="14" Margin="5,0,0,0" />
+                            </Frame>
+                        </StackLayout>
+                       
+                        <StackLayout Spacing="0">
+                            <Label
+                        Margin="2,0,0,0"
+                        FontSize="14"
+                        Text="PhoneNo"
+                        TextColor="White"
+                        FontAttributes="Bold"/>
+                            <Frame
+                        Style="{StaticResource FrameStyle}"
+                        BackgroundColor="White" BorderColor="LightGray"
+                        HeightRequest="50">
+                                <renderers:BorderlessEntry Placeholder="PhoneNo" PlaceholderColor="Black"  TextColor="Black" 
+                                                          Text="{Binding Phone_number}" 
+                                                          
+                                                           Keyboard="Telephone" FontSize="14" Margin="5,0,0,0" />
+                            </Frame>
+                           
+                        </StackLayout>
+                      
+
+                        <StackLayout Spacing="0">
+                            <Label
+                        Margin="2,0,0,0"
+                        FontSize="14"
+                        Text="Department"
+                        TextColor="White"
+                        FontAttributes="Bold"/>
+                            <Frame
+                        Style="{StaticResource FrameStyle}"
+                        BackgroundColor="White" BorderColor="LightGray"
+                        HeightRequest="50">
+                                <renderers:BorderlessEntry Placeholder="Department" PlaceholderColor="Black"  TextColor="Black" 
+                                                          Text="{Binding Department}"
+                                                          
+                                                           Keyboard="Text" FontSize="14" Margin="5,0,0,0" />
+                            </Frame>
+                        </StackLayout>  <Button Text="Register" BackgroundColor="{StaticResource Key=DarkColor}" TextColor="White" FontAttributes="Bold" CornerRadius="10" Margin="0,10,0,400" Command="{Binding SignUpCommand}"/>
+                    </StackLayout>
+
+
+
+               
+
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
