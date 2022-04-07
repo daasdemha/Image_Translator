@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImagesTranslator.Views.CarouselView"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+
+        <StackLayout>
+            <CarouselView ItemsSource="{Binding Carousels}" >
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+
+                        <StackLayout>
+                            <Frame BorderColor="Gray" Margin="8" HasShadow="True" HeightRequest="500" CornerRadius="20" VerticalOptions="CenterAndExpand">
+                                <StackLayout>
+                                    <Image Source="{Binding ImagePath}"/>
+                                    <Label Text="{Binding Title}" FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black"/>
+                                    <Label Text="{Binding Description}" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" />
+                                </StackLayout>
+                            </Frame>
+                           
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <Button CornerRadius="20" Margin="8" Text="Go to Sign In" TextTransform="None" Command="{Binding NavigateSignin}" BackgroundColor="{StaticResource DarkColor}" FontAttributes="Bold" TextColor="White"/>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
