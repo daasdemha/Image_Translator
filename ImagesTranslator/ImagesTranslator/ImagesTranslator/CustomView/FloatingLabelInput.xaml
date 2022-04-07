@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="this"  
+             xmlns:local="clr-namespace:ImagesTranslator.CustomView"
+             x:Class="ImagesTranslator.CustomView.FloatingLabelInput">
+  <ContentView.Content>
+        <StackLayout>
+            <Grid>
+                <local:InputEntry  
+                x:Name="EntryField" 
+                   FontFamily="MO-S"
+                   Completed="Handle_Completed" 
+                   Text="{Binding Text, Source={x:Reference this}}" 
+                   ReturnType="{Binding ReturnType, Source={x:Reference this}}"
+                   IsPassword="{Binding IsPassword, Source={x:Reference this}}"
+                   Keyboard="{Binding Keyboard, Source={x:Reference this}}"
+                   MaxLength="{Binding MaxLength,Source={x:Reference this}}"
+                   Unfocused="Handle_Unfocused" 
+                   TextColor="White"
+                   Focused="Handle_Focused">
+                </local:InputEntry>
+                <Label x:Name="LabelTitle"  FontFamily="MO-R"
+                   Text="{Binding Title, Source={x:Reference this}}"  TextColor="White" Opacity=".5" VerticalOptions="Center">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Handle_Tapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+            <BoxView HeightRequest=".5" BackgroundColor="White"  HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
