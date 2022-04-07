@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImagesTranslator.Views.DetailsPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image x:Name="Image" Margin="10" HorizontalOptions="FillAndExpand"  HeightRequest="500"/>
+                <Label Text="Your Scanned Text:" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Start" Margin="5"/>
+                <!--<Label HorizontalTextAlignment="Start" XAlign="Center"
+  VerticalOptions="Center" HorizontalOptions="Center" Text="Cognitive Services make our applications more intelligent, attractive, and discoverable. We can create lots of apps for our clients in just a few hours by using these services. The goal of Cognitive Services is to democratize AI by packaging it into discrete components that are easy for developers to use in their own apps." FontSize="Small"  Margin="5"/>-->
+                <Label LineBreakMode="WordWrap" x:Name="LblResult" TextColor="Black" Margin="10">
+                  
+                </Label>
+                <Button x:Name="ShareNote" Clicked="ShareNote_Clicked" Text="Share" BackgroundColor="{StaticResource Primary}" TextColor="White" HorizontalOptions="FillAndExpand" Margin="0" Padding="0" TextTransform="None"
+                                     />
+            </StackLayout>
+            
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
