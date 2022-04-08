@@ -11,6 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Fonts\BebasNeue-Regular.ttf" />
     <None Remove="Fonts\materialdesignicons-webfont.ttf" />
     <None Remove="Fonts\Montserrat-Regular.ttf" />
@@ -57,9 +63,5 @@
     <EmbeddedResource Update="Views\RegisterPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="NewFolder\" />
   </ItemGroup>
 </Project>

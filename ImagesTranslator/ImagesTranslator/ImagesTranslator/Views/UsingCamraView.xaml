@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImagesTranslator.Views.UsingCamraView"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Resources>
+
+        <ResourceDictionary>
+
+            <Style x:Key="LabelStyle1" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="Margin" Value="10,0,0,0"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalTextAlignment" Value="Start"/>
+                <Setter Property="FontFamily" Value="ThemeFontBold"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+            </Style>
+            <Style x:Key="CaptionStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontSize" Value="10"/>
+
+                <Setter Property="Margin" Value="10,0,0,0"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+
+                <Setter Property="FontFamily" Value="ThemeFontBold"/>
+            </Style>
+
+
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="CornerRadius" Value="5"/>
+
+                <Setter Property="ContentLayout" Value="Left,10"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontSize" Value="10"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="BorderColor" Value="{StaticResource BorderColor}"/>
+
+
+                <Setter Property="TextTransform" Value="None"/>
+
+            </Style>
+
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Spacing="30">
+
+            <Image  Source="Main.png" HeightRequest="200" HorizontalOptions="CenterAndExpand" Margin="30"/>
+            <Label Text="Start Scanning Now" Style="{StaticResource LabelStyle1}"  HorizontalTextAlignment="Center"/>
+          
+
+               
+
+            <Button Style="{StaticResource ButtonStyle}" TextColor="White" Margin="20"
+                               BackgroundColor="#14213D"
+                                Text="Choose a Image using Camra"
+                               ImageSource="Camra"
+                               Command="{Binding takePhoto}"
+                                Grid.Column="1"
+                                Grid.Row="0"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

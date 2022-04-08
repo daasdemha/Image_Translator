@@ -16,20 +16,11 @@ namespace ImagesTranslator.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
-        private LoginViewModel vm;
         public LoginPage()
         {
             InitializeComponent();
-            BindingContext = vm = new LoginViewModel();
-
-        }
-
-        public async void CheckEmailAndPassword()
-        {
-            if (!vm.CheckLoginDetails())
-            {
-                await DisplayAlert("Login", "Enter Username And Passowrd", "OK");
-            }
+             
+            BindingContext = new LoginViewModel();
         }
        
     }

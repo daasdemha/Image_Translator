@@ -93,7 +93,7 @@ namespace ImagesTranslator.ViewModels
 
                         await Application.Current.MainPage.Navigation.PushPopupAsync(new AlertPage("S", "Login Success"));
 
-                        Application.Current.MainPage = new NavigationPage(new HomePage());
+                        Application.Current.MainPage = new NavigationPage(new MainPage());
                     }
                     else
 
@@ -127,7 +127,7 @@ namespace ImagesTranslator.ViewModels
             if (authResult.Authenticated)
             {
                 //Success  
-                App.Current.MainPage = new NavigationPage(new HomePage());
+                App.Current.MainPage = new NavigationPage(new MainPage());
             }
             else
             {
