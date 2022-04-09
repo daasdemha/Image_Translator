@@ -47,3 +47,4 @@ C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTran
 C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator\obj\Debug\netstandard2.0\ImagesTranslator.dll
 C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator\obj\Debug\netstandard2.0\ref\ImagesTranslator.dll
 C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator\obj\Debug\netstandard2.0\ImagesTranslator.pdb
+C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator\obj\Debug\netstandard2.0\ImagesTranslator.csproj.AssemblyReference.cache

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uYZuH3IEjS8l7sqlQXJ4TfqHZ1rtm2P0oMEn7Ja2l76Jk5MwbQB6qKjeAmyEU26hI5Q6rPlsbdPv/mBGDpEQvw==",
+  "dgSpecHash": "6DvQoh6KvSchrpZqagd879+KYINFQ/lkONgmQKilhpFMfsc73MNm1CyvYngb2/eXaAq+0a+e5+AvZod2TCKmMQ==",
   "success": true,
   "projectFilePath": "C:\\SaadIftikhar-Iftikhars-DaasDemha\\ImagesTranslator\\UnitTest\\UnitTest.csproj",
   "expectedPackageFiles": [
@@ -77,8 +77,8 @@
     "C:\\Users\\User\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xamarin.essentials\\1.7.2\\xamarin.essentials.1.7.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
