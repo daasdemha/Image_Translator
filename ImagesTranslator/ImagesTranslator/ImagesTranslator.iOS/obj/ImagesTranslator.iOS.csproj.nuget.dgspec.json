@@ -14,8 +14,12 @@
         "outputPath": "C:\\SaadIftikhar-Iftikhars-DaasDemha\\ImagesTranslator\\ImagesTranslator\\ImagesTranslator.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,9 +43,9 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
-            "Autofac": {
+            "CarouselView.FormsPlugin": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[6.0.0, )"
             },
             "FirebaseDatabase.net": {
               "target": "Package",
@@ -50,10 +54,6 @@
             "Plugin.Fingerprint": {
               "target": "Package",
               "version": "[2.1.5, )"
-            },
-            "Rg.Plugins.Popup": {
-              "target": "Package",
-              "version": "[2.1.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -87,8 +87,12 @@
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\SaadIftikhar-Iftikhars-DaasDemha\\ImagesTranslator\\ImagesTranslator\\ImagesTranslator\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,6 +122,10 @@
             "Autofac": {
               "target": "Package",
               "version": "[6.3.0, )"
+            },
+            "CarouselView.FormsPlugin": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "FirebaseDatabase.net": {
               "target": "Package",

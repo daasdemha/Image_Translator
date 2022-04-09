@@ -16,7 +16,6 @@ namespace ImagesTranslator.Views
         public UsingCamraView()
         {
             InitializeComponent();
-            BindingContext = new HomeViewModel();
         }
     }
 }

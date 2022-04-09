@@ -14,8 +14,12 @@
         "outputPath": "C:\\SaadIftikhar-Iftikhars-DaasDemha\\ImagesTranslator\\ImagesTranslator\\ImagesTranslator.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,10 +43,6 @@
       "frameworks": {
         "monoandroid11.0": {
           "dependencies": {
-            "Autofac": {
-              "target": "Package",
-              "version": "[6.3.0, )"
-            },
             "CarouselView.FormsPlugin": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -51,21 +51,9 @@
               "target": "Package",
               "version": "[4.0.7, )"
             },
-            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
-              "target": "Package",
-              "version": "[7.0.1, )"
-            },
-            "NETStandard.Library": {
-              "target": "Package",
-              "version": "[2.0.3, )"
-            },
             "Plugin.Fingerprint": {
               "target": "Package",
               "version": "[2.1.5, )"
-            },
-            "Rg.Plugins.Popup": {
-              "target": "Package",
-              "version": "[2.1.0, )"
             },
             "Xam.Plugin.Media": {
               "target": "Package",
@@ -92,8 +80,12 @@
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\SaadIftikhar-Iftikhars-DaasDemha\\ImagesTranslator\\ImagesTranslator\\ImagesTranslator\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,6 +115,10 @@
             "Autofac": {
               "target": "Package",
               "version": "[6.3.0, )"
+            },
+            "CarouselView.FormsPlugin": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "FirebaseDatabase.net": {
               "target": "Package",

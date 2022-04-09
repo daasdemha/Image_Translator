@@ -1,4 +1,5 @@
-﻿using ImagesTranslator.ViewModels;
+﻿using Autofac;
+using ImagesTranslator.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,10 +14,12 @@ namespace ImagesTranslator.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomePage : ContentPage
     {
+        private HomeViewModel vm;
         public HomePage()
         {
             InitializeComponent();
-            BindingContext = new HomeViewModel();
+            vm = AppContainer.Container.Resolve<HomeViewModel>();
+            BindingContext = vm;
         }
     }
 }

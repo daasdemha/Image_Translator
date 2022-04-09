@@ -11,11 +11,41 @@
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
     },
-    "e9c75fc8-6e43-4bb6-8611-6479951a0ca5": {
-      "ProjectGuid": "e9c75fc8-6e43-4bb6-8611-6479951a0ca5",
-      "DisplayName": "ImagesTranslator.Android",
+    "76f9685e-8d0d-4e99-adf7-722f54df254c": {
+      "ProjectGuid": "76f9685e-8d0d-4e99-adf7-722f54df254c",
+      "DisplayName": "UnitTest",
       "ColorIndex": 1
+    },
+    "e67486b8-f569-4957-ac21-411cbfa5fbab": {
+      "ProjectGuid": "e67486b8-f569-4957-ac21-411cbfa5fbab",
+      "DisplayName": "UnitTest",
+      "ColorIndex": 2
+    },
+    "ab35f56c-5be6-4164-98c5-2719e478f459": {
+      "ProjectGuid": "ab35f56c-5be6-4164-98c5-2719e478f459",
+      "DisplayName": "NUnitTest",
+      "ColorIndex": 3
+    },
+    "d3de26fc-e95c-4960-a8af-1230eb3b8f37": {
+      "ProjectGuid": "d3de26fc-e95c-4960-a8af-1230eb3b8f37",
+      "DisplayName": "UnitTest",
+      "ColorIndex": 4
+    },
+    "9d234706-6e37-4946-8262-ab5db11289a9": {
+      "ProjectGuid": "9d234706-6e37-4946-8262-ab5db11289a9",
+      "DisplayName": "UnitTest",
+      "ColorIndex": 5
+    },
+    "7a0cbd6f-1035-4026-b668-1b4bd3085108": {
+      "ProjectGuid": "7a0cbd6f-1035-4026-b668-1b4bd3085108",
+      "DisplayName": "UnitTest",
+      "ColorIndex": 6
+    },
+    "9244415a-8ed5-48ce-af50-dce8a05a3bd4": {
+      "ProjectGuid": "9244415a-8ed5-48ce-af50-dce8a05a3bd4",
+      "DisplayName": "UnitTest",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 8
 }

@@ -28,14 +28,14 @@ namespace UnitTest
         [Test]
         public async Task UserSignup()
         {
-            var result = await rvm.UserSiginUp("Rusell Arnold", "982145", "111111111", "Programming", "s@gmail.com", "123");
+            var result = await rvm.UserSiginUp("Rusell Arnold", "982145", "111111111", "Programming", "s@mail.com", "123");
             Assert.IsTrue(result);
         }
 
         [Test]
         public async Task LoginWithEmailAndPassWord()
         {
-            vm.Email = "s@gmail.com";
+            vm.Email = "s@mail.com";
             vm.Password = "123";
 
             var result = await vm.ChekUserCredetials();
@@ -45,7 +45,7 @@ namespace UnitTest
         [Test]
         public async Task CheckAzureServer()
         {
-            var result = await hvm.CheckAzureServer(@"C:\Users\User\Pictures\Screenshots\Screenshot(925).png");
+            var result = await hvm.CheckAzureServer(@"C: \Users\User\Downloads\277594694_1899083370295440_2112161484201692271_n.jpg");
             Assert.AreEqual(result, "TEST PLAN TEMPLATE ");
         }
 

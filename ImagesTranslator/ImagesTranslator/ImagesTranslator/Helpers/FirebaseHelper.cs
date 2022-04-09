@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 using ImagesTranslator.Model;
 using ImagesTranslator.Utility;
 
-namespace CoventryNews.ViewModels
+namespace ImagesTranslator.ViewModels
 {
     public class FirebaseHelper
     {
-        public static FirebaseClient firebase = FirebaseCoreClient.Instance;
+        public static FirebaseClient firebase = FirebaseCoreClient.Instance; // everytime it creates one instance
 
         //Read All User
         public static async Task<List<Users>> GetAllUser()

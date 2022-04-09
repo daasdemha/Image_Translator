@@ -13,12 +13,14 @@ attr;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\Image
 attr;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\61\jl\res\values\attrs.xml
 background;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
+bitmap;obj\Debug\110\res\drawable\splash_screen.xml
 bool;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\2\jl\res\values\vpi__defaults.xml
 cache-path;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\60\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 CarouselView.FormsPlugin.Droid.HorizontalViewPager;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\0\jl\res\layout\horizontal_viewpager.xml
 CarouselView.FormsPlugin.Droid.VerticalViewPager;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\0\jl\res\layout\vertical_viewpager.xml
 color;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\2\jl\res\values\vpi__colors.xml
 color;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\2\jl\res\values\vpi__defaults.xml
+color;obj\Debug\110\res\drawable\splash_screen.xml
 color;obj\Debug\110\res\values\colors.xml
 com.google.android.material.appbar.AppBarLayout;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\61\jl\res\layout\flyoutcontent.xml
 com.google.android.material.appbar.AppBarLayout;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\61\jl\res\layout\rootlayout.xml
@@ -44,7 +46,9 @@ ImageView;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\
 integer;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\2\jl\res\values\vpi__defaults.xml
 item;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\2\jl\res\values\vpi__styles.xml
 item;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\61\jl\res\values\styles.xml
+item;obj\Debug\110\res\drawable\splash_screen.xml
 item;obj\Debug\110\res\values\styles.xml
+layer-list;obj\Debug\110\res\drawable\splash_screen.xml
 LinearLayout;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\0\jl\res\layout\horizontal_viewpager.xml
 LinearLayout;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\0\jl\res\layout\vertical_viewpager.xml
 LinearLayout;C:\SaadIftikhar-Iftikhars-DaasDemha\ImagesTranslator\ImagesTranslator\ImagesTranslator.Android\obj\Debug\110\lp\61\jl\res\layout\bottomtablayout.xml

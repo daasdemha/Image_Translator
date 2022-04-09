@@ -3,19 +3,16 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-
-[assembly: ExportFont("BebasNeue-Regular.ttf", Alias = "BE-R")]
-[assembly: ExportFont("Montserrat-Regular.ttf", Alias = "MO-R")]
-[assembly: ExportFont("Montserrat-SemiBold.ttf", Alias = "MO-S")]
 namespace ImagesTranslator
 {
     public partial class App : Application
     {
-        public App(AppSetup setup)
+        public App()
         {
             InitializeComponent();
-            AppContainer.Container = setup.CreateContainer();
-            MainPage = new NavigationPage(new LoginPage());
+
+           MainPage = new NavigationPage(new ImagesTranslator.Views.CarouselView());
+           // MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

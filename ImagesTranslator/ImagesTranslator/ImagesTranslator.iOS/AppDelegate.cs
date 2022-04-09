@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using CarouselView.FormsPlugin.iOS;
 using Foundation;
 using UIKit;
 
@@ -22,7 +22,8 @@ namespace ImagesTranslator.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            Rg.Plugins.Popup.Popup.Init();
+            CarouselViewRenderer.Init();
+           
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 

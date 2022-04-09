@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hY3PTH9FOwSZCkh+VJwfLBdBLDS1QJFnkjt/R6qV6B+E3A0QXw/HkM0L62KsN05DpH595yJ228LBs1NtLPJaRw==",
+  "dgSpecHash": "6ys3G/hMoncYFOGZGCXg0TsC0ydbfGsJ13NFYYnHobWQ2aWjv/SIJYovcA3n7NRDRj9eeztNtY6q+YWpu/1EMA==",
   "success": true,
   "projectFilePath": "C:\\SaadIftikhar-Iftikhars-DaasDemha\\ImagesTranslator\\ImagesTranslator\\ImagesTranslator.Android\\ImagesTranslator.Android.csproj",
   "expectedPackageFiles": [
@@ -9,10 +9,8 @@
     "C:\\Users\\User\\.nuget\\packages\\firebasedatabase.net\\4.0.7\\firebasedatabase.net.4.0.7.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\microsoft.azure.cognitiveservices.vision.computervision.7.0.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.20\\microsoft.rest.clientruntime.2.3.20.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\microsoft.rest.clientruntime.azure.3.3.18.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\plugin.fingerprint\\2.1.5\\plugin.fingerprint.2.1.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\rg.plugins.popup\\2.1.0\\rg.plugins.popup.2.1.0.nupkg.sha512",

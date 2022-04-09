@@ -1,6 +1,6 @@
 ﻿
 
-using CoventryNews.ViewModels;
+using ImagesTranslator.ViewModels;
 using ImagesTranslator.Views;
 using Plugin.Fingerprint;
 using Plugin.Fingerprint.Abstractions;

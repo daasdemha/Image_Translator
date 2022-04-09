@@ -1,4 +1,4 @@
-﻿using CoventryNews.ViewModels;
+﻿using ImagesTranslator.ViewModels;
 
 using ImagesTranslator.Views;
 using Rg.Plugins.Popup.Extensions;
